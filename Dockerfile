@@ -15,11 +15,15 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 # Copy project configuration
 COPY app/pyproject.toml ./
 
-# Copy the app source code
-COPY app ./
+# Copy the main algorithm module
+COPY app/algo.py ./
+COPY app/__init__.py ./
 
 # Install the package in development mode
 RUN pip install -e .[dev]
+
+# Copy remaining files after installation
+COPY app/test_docker.py ./
 
 EXPOSE 8888
 
