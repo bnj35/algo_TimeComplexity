@@ -2,11 +2,11 @@
 
 ## 🌱 Smart Grid Energy Balancing Algorithm
 
-This project implements and compares different algorithms to solve the **Two-Sum problem** for Smart Grid energy balancing, finding two energy production surplus values that sum to a target demand value.
+This school project implements and compares different algorithms to solve the **Two-Sum problem** for Smart Grid energy balancing, finding two energy production surplus values that sum to a target demand value.
 
 ### 📋 Problem Statement
 
-Your company, LoGreenTech Solutions, develops energy management software for Smart Grid districts. The system needs to dynamically balance energy supply and demand by finding two production surplus values that sum to a target demand value.
+LoGreenTech Solutions, develops energy management software for Smart Grid districts. The system needs to dynamically balance energy supply and demand by finding two production surplus values that sum to a target demand value.
 
 The challenge: **Real-time performance requirements** make brute force approaches unsuitable for large datasets.
 
