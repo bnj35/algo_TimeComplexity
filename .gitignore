@@ -40,3 +40,4 @@ logs/
 #others
 
 ALGO.md
+./app/.ipynb_checkpoints.py
